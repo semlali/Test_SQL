@@ -25,6 +25,13 @@ SET time_zone = "+00:00";
 --
 -- Structure de la table `absence_etudiant`
 --
+---mouna
+
+
+
+CREATE TABLE IF NOT EXISTS `samia` (
+  `nbr` int(11) DEFAULT NULL,
+)
 
 CREATE TABLE IF NOT EXISTS `absence_etudiant` (
   `nbr_heure` int(11) DEFAULT NULL,
