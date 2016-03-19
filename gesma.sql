@@ -60,6 +60,12 @@ CREATE TABLE IF NOT EXISTS `absence_etudiant` (
 --
 -- Structure de la table `absence_etudiant_par_mois`
 --
+CREATE TABLE IF NOT EXISTS `hanane_update` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+
 
 CREATE TABLE IF NOT EXISTS `absence_etudiant_par_mois` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
