@@ -33,6 +33,13 @@ CREATE TABLE IF NOT EXISTS `samia` (
   `nbr` int(11) DEFAULT NULL,
 )
 
+CREATE TABLE IF NOT EXISTS `mendada` (
+  `nbr` int(11) DEFAULT NULL,
+)
+
+
+
+
 CREATE TABLE IF NOT EXISTS `absence_etudiant` (
   `nbr_heure` int(11) DEFAULT NULL,
   `date_absence` date NOT NULL,
