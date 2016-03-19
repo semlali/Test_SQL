@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Ven 18 Mars 2016 à 12:45
+-- Généré le :  Sam 19 Mars 2016 à 13:20
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Base de données :  `gesma`
+-- Base de données :  `test_gesma`
 --
 
 -- --------------------------------------------------------
@@ -2029,6 +2029,18 @@ CREATE TABLE IF NOT EXISTS `salle` (
   `abrev_classe` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`id_salle`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `samia`
+--
+
+CREATE TABLE IF NOT EXISTS `samia` (
+  `id` int(11) NOT NULL,
+  `nom` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
