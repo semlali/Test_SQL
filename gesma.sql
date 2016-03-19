@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 
 
-CREATE TABLE IF NOT EXISTS `mouna` (
+CREATE TABLE IF NOT EXISTS `samia` (
   `nbr` int(11) DEFAULT NULL,
 )
 
